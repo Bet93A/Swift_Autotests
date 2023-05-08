@@ -1148,6 +1148,11 @@
 		67FBE33C29705FC200A2E4AD /* TalkPageArchivesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBE33929705FC200A2E4AD /* TalkPageArchivesItem.swift */; };
 		67FBE33D29705FC200A2E4AD /* TalkPageArchivesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBE33929705FC200A2E4AD /* TalkPageArchivesItem.swift */; };
 		67FF9C6B28076ADA000963D1 /* NSError+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF9C6A28076ADA000963D1 /* NSError+Utilities.swift */; };
+		697F7D562A09172100C30EA9 /* MyHomeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697F7D552A09172100C30EA9 /* MyHomeWorkTests.swift */; };
+		697F7D5B2A0917B600C30EA9 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697F7D5A2A0917B600C30EA9 /* MainScreen.swift */; };
+		697F7D5D2A0917E100C30EA9 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697F7D5C2A0917E100C30EA9 /* SettingScreen.swift */; };
+		697F7D5F2A09181B00C30EA9 /* TopReadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697F7D5E2A09181B00C30EA9 /* TopReadScreen.swift */; };
+		697F7D612A09182B00C30EA9 /* AboutAppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697F7D602A09182B00C30EA9 /* AboutAppScreen.swift */; };
 		7004A5BA268CEE680029C46B /* EventPlatformClientWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7004A5B9268CEE680029C46B /* EventPlatformClientWorker.swift */; };
 		702096B9256C3D5700E27041 /* SamplingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702096B8256C3D5700E27041 /* SamplingController.swift */; };
 		70B798142575714100C10BCA /* EventPlatformEvents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70B798122575714100C10BCA /* EventPlatformEvents.xcdatamodeld */; };
@@ -4369,6 +4374,11 @@
 		67FBE334297056EB00A2E4AD /* TalkPageArchivesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkPageArchivesFetcher.swift; sourceTree = "<group>"; };
 		67FBE33929705FC200A2E4AD /* TalkPageArchivesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkPageArchivesItem.swift; sourceTree = "<group>"; };
 		67FF9C6A28076ADA000963D1 /* NSError+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+Utilities.swift"; sourceTree = "<group>"; };
+		697F7D552A09172100C30EA9 /* MyHomeWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHomeWorkTests.swift; sourceTree = "<group>"; };
+		697F7D5A2A0917B600C30EA9 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		697F7D5C2A0917E100C30EA9 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
+		697F7D5E2A09181B00C30EA9 /* TopReadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopReadScreen.swift; sourceTree = "<group>"; };
+		697F7D602A09182B00C30EA9 /* AboutAppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppScreen.swift; sourceTree = "<group>"; };
 		7004A5B9268CEE680029C46B /* EventPlatformClientWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPlatformClientWorker.swift; sourceTree = "<group>"; };
 		702096B8256C3D5700E27041 /* SamplingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplingController.swift; sourceTree = "<group>"; };
 		70B798132575714100C10BCA /* EventPlatformEvents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventPlatformEvents.xcdatamodel; sourceTree = "<group>"; };
@@ -7517,6 +7527,17 @@
 			name = "MobileHTML Article Cache";
 			sourceTree = "<group>";
 		};
+		697F7D572A09173C00C30EA9 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				697F7D5A2A0917B600C30EA9 /* MainScreen.swift */,
+				697F7D5C2A0917E100C30EA9 /* SettingScreen.swift */,
+				697F7D602A09182B00C30EA9 /* AboutAppScreen.swift */,
+				697F7D5E2A09181B00C30EA9 /* TopReadScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		70416BF62565D6C000D5BC33 /* Event Platform */ = {
 			isa = PBXGroup;
 			children = (
@@ -8051,8 +8072,10 @@
 		B0606EAF20AA6FF0006EC6B9 /* WikipediaUITests */ = {
 			isa = PBXGroup;
 			children = (
+				697F7D572A09173C00C30EA9 /* Screen */,
 				B0606EB020AA6FF0006EC6B9 /* SnapshotRecorderTests.swift */,
 				B0606EC420AA955B006EC6B9 /* SnapshotHelper.swift */,
+				697F7D552A09172100C30EA9 /* MyHomeWorkTests.swift */,
 				B0BDA58120B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift */,
 				B0606EB220AA6FF0006EC6B9 /* Info.plist */,
 			);
@@ -11148,7 +11171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697F7D5D2A0917E100C30EA9 /* SettingScreen.swift in Sources */,
 				B0606EB120AA6FF0006EC6B9 /* SnapshotRecorderTests.swift in Sources */,
+				697F7D562A09172100C30EA9 /* MyHomeWorkTests.swift in Sources */,
+				697F7D612A09182B00C30EA9 /* AboutAppScreen.swift in Sources */,
+				697F7D5B2A0917B600C30EA9 /* MainScreen.swift in Sources */,
+				697F7D5F2A09181B00C30EA9 /* TopReadScreen.swift in Sources */,
 				B0606EC520AA955C006EC6B9 /* SnapshotHelper.swift in Sources */,
 				B0BDA58220B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift in Sources */,
 			);
